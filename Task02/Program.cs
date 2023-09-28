@@ -6,6 +6,7 @@
 string dayNumber;
 Console.WriteLine("Ведите номер дня недели: ");
 dayNumber = Console.ReadLine();
+
 if(dayNumber == "1")
 {
     Console.WriteLine($"{dayNumber} -> Понедельник: ");
